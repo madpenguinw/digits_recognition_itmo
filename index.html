@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body class="overflow-hidden">
+  <div id="app">
+    <div class="flex-col flex gap-40 flex-wrap justify-center">
+      <div class="min-w-[50%] flex flex-col justify-center">
+        <div>
+          <canvas class="mb-30 rounded-30 border mx-auto border-gray-200" id="canvas" width="280"
+            height="280"></canvas>
+          <button id="clear" class="font-bold text-16">Очистить холст</button>
+        </div>
+      </div>
+
+      <div>
+        <p class="text-16 font-medium mb-10">Преположительное число:</p>
+        <div class="flex gap-x-5 justify-center h-30">
+          <p id="output" class="p0 text-24 text-center font-bold leading-none"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-40 flex gap-x-10 items-end justify-center">
+      <h1 class="text-36 font-bold leading-none">Соколов Михаил, гр P4208</h1>
+    </div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
